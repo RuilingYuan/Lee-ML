@@ -13,5 +13,8 @@ def plot_data(x, y):
 
 
     # ===========================================================
-
+    plt.plot()
+    plt.xlabel('Population of City in 10,000')
+    plt.ylabel('Profit in $10,000')
+    plt.scatter(x, y, c='r', marker='x')
     plt.show()
